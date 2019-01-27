@@ -29,10 +29,13 @@ Each image has three buttons that appear on mouse hover. You need to make them w
 2. Delay: Current implementation will fire an api call for each character you type. It causes a lot of redundant api calls. Change it so an api call will be fired only 500ms after no typing was done.
 3. Infinite Scroll: currently the gallery displays only 100 images. *Create* a mechanism that loads more images from flickr when the user is scrolling past the last image.
 
-### Bonus
+### Bonus #1
 Filter: There’s an option to get info on an image from flickr. This info contains title and description.
 Create the ability to filter the existing images by text contained inside the title or description.
- 
+
+### Bonus #2
+Images: When the user loads many images, the browser can become slow and sometime stuck altogether.
+How woule you solve this?
 
 ## Tips / Notes
 - All the code you'll change / add will be in the `/src/components` folder.
