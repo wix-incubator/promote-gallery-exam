@@ -35,7 +35,7 @@ Create the ability to filter the existing images by text contained inside the ti
 
 ### Bonus #2
 Images: When the user loads many images, the browser can become slow and sometime stuck altogether.
-How woule you solve this?
+How would you solve this?
 
 ## Tips / Notes
 - All the code you'll change / add will be in the `/src/components` folder.
